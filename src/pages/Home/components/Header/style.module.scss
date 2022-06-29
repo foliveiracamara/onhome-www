@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  color: black;
+
+  .logo {
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
