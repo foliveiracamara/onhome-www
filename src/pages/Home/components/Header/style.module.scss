@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   height: 70px;
-  color: black;
+  color: $white;
 
   .logo {
     font-size: 22px;
@@ -18,12 +18,7 @@
     list-style: none;
     cursor: pointer;
   }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
+  
   .navbar {
     display: flex;
     align-items: center;
