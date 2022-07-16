@@ -10,12 +10,11 @@ module.exports = {
     prependData: `@import "./sass/main.scss";`
   },
 
-  async rewrite(){
+  async rewrites(){
       return [
         {
           source: '/',
-          destination: '/home',
-          permanent: true
+          destination: '/Home'
         }
       ]
   }

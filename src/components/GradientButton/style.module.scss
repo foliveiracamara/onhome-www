@@ -1,0 +1,10 @@
+.button {
+    padding: 0 10px;
+    border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(#0f0b30, #0f0b30) padding-box,
+        linear-gradient(to right, hsl(180, 100%, 50%), hsl(300, 100%, 50%)) border-box;
+    border-radius: 14px;
+    border-color: transparent;
+    color: white;
+}
