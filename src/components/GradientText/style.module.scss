@@ -1,0 +1,9 @@
+.gradient {
+    h1 {
+        font-size: 72px;
+        background: linear-gradient(to right, rgb(0, 217, 255), rgb(123, 87, 252),rgb(255, 0, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: fit-content;
+    }
+}
