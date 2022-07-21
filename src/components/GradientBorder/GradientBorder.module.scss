@@ -1,0 +1,9 @@
+.border {
+    padding: 0 10px;
+    border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(#1F1B42, #1F1B42) padding-box,
+                linear-gradient(to right, #00ffff, #ff00ff) border-box;
+    border-radius: 20px;
+    border-color: transparent;
+}
