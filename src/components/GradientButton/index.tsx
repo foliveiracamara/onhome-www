@@ -8,7 +8,7 @@ interface GradientButtonProps {
   padding: number;
 }
 
-const GradientButton = ({
+export const GradientButton = ({
   value,
   href,
   onClick,
@@ -25,4 +25,3 @@ const GradientButton = ({
   return href ? <Link href={href}>{renderButton()}</Link> : renderButton();
 };
 
-export default GradientButton;
