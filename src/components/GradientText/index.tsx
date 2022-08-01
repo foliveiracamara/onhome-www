@@ -9,7 +9,7 @@ interface GradientTextProps {
   fontWeight?: number;
 }
 
-const GradientText = ({
+export const GradientText = ({
   value,
   fontSize,
   textAlign,
@@ -34,5 +34,3 @@ const GradientText = ({
     </div>
   );
 };
-
-export default GradientText;
